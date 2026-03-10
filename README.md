@@ -16,7 +16,7 @@
 8) do ctrl+a and ctrl+v to paste
 9) change the urls like below:
 
-```
+```php
 url-prefix("http://127.0.0.1:8888/search")
 url("http://127.0.0.1:8888/")
 url-prefix("http://127.0.0.1:8888/")
@@ -24,7 +24,7 @@ url-prefix("http://127.0.0.1:8888/")
 
 to:
 
-```
+```php
 url-prefix("<the url you will use>/search")
 url("<the instance url will use>/")
 url-prefix("<the url you will use>/")
