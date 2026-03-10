@@ -4,9 +4,6 @@
 
 # instructions
 
-### 1
-add theme to stylus:
-
 1) click extensions icon on your browser
 2) click stylus
 3) click manage
