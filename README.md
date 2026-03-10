@@ -11,14 +11,18 @@ add theme to stylus
 change these urls:
 
 url-prefix("http://127.0.0.1:8888/search")
+
 url("http://127.0.0.1:8888/")
+
 url-prefix("http://127.0.0.1:8888/")
 
 to:
 
 
 url-prefix("\<the instance you will use\>/search")
+
 url("\<the instance you will use\>/")
+
 url-prefix("\<the instance you will use\>/")
 
 ### be happy
