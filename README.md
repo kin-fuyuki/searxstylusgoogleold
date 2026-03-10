@@ -11,17 +11,22 @@ add theme to stylus:
 2) click stylus
 3) click manage
 4) click to add style
+
 <img width="304" height="243" alt="image" src="https://github.com/user-attachments/assets/098bbdec-fcc0-4765-88f7-4222593a94eb" />
-5) copy the css in main.css
-6) go back to the css editor
-7) do ctrl+a and ctrl+v to paste
-8) change the urls like below:
+
+6) copy the css in main.css
+7) go back to the css editor
+8) do ctrl+a and ctrl+v to paste
+9) change the urls like below:
+
 ```
 url-prefix("http://127.0.0.1:8888/search")
 url("http://127.0.0.1:8888/")
 url-prefix("http://127.0.0.1:8888/")
 ```
+
 to:
+
 ```
 url-prefix("\<the url you will use\>/search")
 url("\<the instance url will use\>/")
